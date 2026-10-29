@@ -1,0 +1,33 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.DS_Store
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Generated incident datasets
+incident.csv
+incidents.csv
+data/incident.csv
+data/incidents.csv
+
+
+# Temporary Tableau files
+.~*
+*.twbr 
